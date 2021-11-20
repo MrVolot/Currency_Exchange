@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">USD Exchange</string>
+    <string name="download_btn">Download data</string>
+    <string name="results">Doing nothing</string>
+</resources>
