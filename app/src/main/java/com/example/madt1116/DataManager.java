@@ -8,8 +8,8 @@ import java.net.URL;
 public class DataManager {
 
     public static String getRateFromECB(String currencyCode) throws IOException {
-        String rate = "Data were not retrieved";
-        InputStream stream = downloadUrl(Constants.ECB_URL);
+        String rate = Constants.data_info;
+        InputStream stream = downloadUrl(Constants.URL);
         try {
             rate = XmlParser.getRateFromECB(stream, currencyCode);
         }

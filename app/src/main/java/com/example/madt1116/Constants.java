@@ -9,5 +9,6 @@ public class Constants
     public static final String load_str = "Loading...";
     public static final String loading_results = "Results:";
     public static final String[] nominals = {"EUR","GBP","CAD","JPY","AUD","CHF","SYP","TOP","VUV","HKD"};
-    public static final String ECB_URL = "http://www.floatrates.com/daily/usd.xml";
+    public static final String data_info = "Data were not retrieved";
+    public static final String URL = "http://www.floatrates.com/daily/usd.xml";
 }

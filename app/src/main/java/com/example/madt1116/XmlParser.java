@@ -34,7 +34,7 @@ public class XmlParser {
                     if(tmpResult.equals(currencyCode)) {
                         NodeList nodeList = element2.getElementsByTagName(Constants.rate_str).item(0).getChildNodes();
                         Node node2 = nodeList.item(0);
-                        result+=tmpResult+" - ";
+                        result += tmpResult+" - ";
                         result += node2.getNodeValue();
                         return result;
                     }
